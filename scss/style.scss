@@ -1,2 +1,10 @@
-@import "./paginas/productos";
+@import "./base/variables";
+@import "./base/general";
+@import "./base/header";
+@import "./base/footer";
 @import "./paginas/index";
+@import "./paginas/productos";
+@import "./paginas/promociones";
+@import "./paginas/nosotros";
+@import "./paginas/contacto";
+
