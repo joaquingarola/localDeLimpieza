@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    font-size: 20px;
+}
+
+.estructura__main__boton{
+    position: fixed;
+    right: 2%;
+    top: 45%;
+    z-index: 10;
+    filter: drop-shadow(10px 10px 4px grey);
+
+    &:hover{
+        animation: mov 0.5s ease-in-out infinite both;
+    }
+}
+

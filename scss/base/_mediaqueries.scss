@@ -1,0 +1,42 @@
+@media only screen and (max-width: 750px) {
+    h1{
+        display: none;
+    }
+
+    .estructura__header__contenedor{
+        width: 100%;
+        margin: auto;
+    }
+
+    .estructura__header__logo{
+        margin: auto;
+        width: 300px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .estructura__main__contenedorIndex__img {
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .estructura__main__contenedorIndex__texto {
+        width: 90%;
+        text-align: left;
+    }
+
+    .textoRedes{
+        display: none;
+    }
+
+    .estructura__footer__lista__item {
+        width: 10%;
+    }
+
+    .estructura__main__boton{
+        display: none;
+    }
+}

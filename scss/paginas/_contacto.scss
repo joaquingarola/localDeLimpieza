@@ -1,0 +1,38 @@
+.estructura__main__contenedorContacto{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2%;
+
+    &__titulo{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    &__form{
+        width: 50%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+
+        &__label{
+            text-align: left;
+        }
+
+        &__botones {
+            display: flex;
+            width: 100%;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+
+            &__check{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+

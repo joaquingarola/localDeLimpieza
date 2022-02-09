@@ -1,0 +1,32 @@
+.estructura__footer{ 
+    color: lightgray;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-around;
+
+    &__lista{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+    
+        &__item{
+            display: inline-block;
+            width: 11%;
+        }
+    }
+
+    &__texto{
+        font-weight: 900;
+        text-align: center;
+    }
+}
+
+.linkFacebook:hover{
+    color: #3b5998 ;
+}
+
+.linkInstagram:hover{
+    color: blueviolet;
+}

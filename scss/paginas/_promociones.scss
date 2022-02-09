@@ -1,0 +1,45 @@
+.estructura__main__contenedorPromociones{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    &__tabla{
+        width: 90%;
+
+        &__th{
+            background-color: #AEFEFF;
+            border-radius: 5px;
+        }
+
+        &__cont{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+
+            &__bna{
+                background-color: #007894;
+                height: 40px;
+            }
+
+            &__bsf{
+                background-color: white;
+                height: 40px;
+            }
+
+            &__img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
