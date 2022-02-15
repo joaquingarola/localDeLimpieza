@@ -1,0 +1,7 @@
+En este archivo explicaran los cambios realizados para mejorar el SEO.
+
+- Se agregaron keywords en todas las páginas del proyecto.
+- Se agregó un description en todas las páginas del proyecto.
+- Todas las páginas ya tenían título, por lo tanto no se modificó ese aspecto.
+- Todas las páginas ya tenían encabezado, por lo tanto no se modificó ese aspecto.
+- Se utilizó el validator de w3c para revisar posibles errores en archivos html y css.
