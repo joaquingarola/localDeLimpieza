@@ -1,7 +1,6 @@
 .estructura__main__contenedorIndex{
     @include flexbox(row, wrap, space-evenly, center);
-    padding-top: 1%;
-    padding-bottom: 1%;
+    @extend %padding;
 
     &__img{
         width: 30%;

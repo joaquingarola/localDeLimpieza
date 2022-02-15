@@ -1,8 +1,7 @@
 .estructura__main__contenedorProductos{
     @include flexbox(column, wrap, center, center);
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 2%;
+    @extend %padding;
 
     &__tabla{
         width: 60%;

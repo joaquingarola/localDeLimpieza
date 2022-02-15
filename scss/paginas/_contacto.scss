@@ -1,11 +1,10 @@
 .estructura__main__contenedorContacto{
     width: 100%;
     @include flexbox(column, wrap, center, center);
-    padding-bottom: 2%;
+    @extend %padding;
 
     &__titulo{
         text-align: center;
-        margin-top: 20px;
     }
 
     &__form{

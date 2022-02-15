@@ -2,11 +2,11 @@
     width: 100%;
     @include flexbox(column, wrap, space-between, center);
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    @extend %padding;
 
     &__tabla{
         width: 90%;
+        margin-bottom: 20px;
 
         &__th{
             background-color: map-get($colores, th);
