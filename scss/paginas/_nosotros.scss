@@ -1,8 +1,5 @@
 .estructura__main__contenedorNosotros{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
+    @include flexbox(column, wrap, center, center);
     padding-bottom: 2%;
 
     &__texto{

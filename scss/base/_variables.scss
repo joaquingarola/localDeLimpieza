@@ -3,6 +3,7 @@ $colores:(
     secundario: rgba(248,249,250,1),
     texto-body: #212529,
     items: #afafaf,
+    items-hover: lightgrey,
     titulo: white,
     facebook: #3b5998,
     instagram: blueviolet,
@@ -11,4 +12,10 @@ $colores:(
     sombra-boton: grey
 );
     
+@mixin flexbox ($direction, $wrap, $justify, $align){
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: $justify;
+    align-content: $align;
+}
     

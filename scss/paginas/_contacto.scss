@@ -1,9 +1,6 @@
 .estructura__main__contenedorContacto{
     width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: center;
+    @include flexbox(column, wrap, center, center);
     padding-bottom: 2%;
 
     &__titulo{
@@ -13,19 +10,15 @@
 
     &__form{
         width: 50%;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-evenly;
+        @include flexbox(column, wrap, space-evenly, center);
 
         &__label{
             text-align: left;
         }
 
         &__botones {
-            display: flex;
             width: 100%;
-            flex-flow: row wrap;
-            justify-content: space-evenly;
+            @include flexbox(row, wrap, space-evenly, center);
 
             &__check{
                 width: 100%;

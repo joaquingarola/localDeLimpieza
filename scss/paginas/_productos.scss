@@ -1,7 +1,5 @@
 .estructura__main__contenedorProductos{
-    display: flex;
-    flex-flow: column wrap;
-    align-content: center;
+    @include flexbox(column, wrap, center, center);
     text-align: center;
     padding-top: 1%;
     padding-bottom: 2%;

@@ -1,15 +1,10 @@
 .estructura__footer{ 
     background-color: map-get($colores, principal);
     color: map-get($colores, items);
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: space-around;
+    @include flexbox(column, wrap, center, space-around);
 
     &__lista{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
+        @include flexbox(row, wrap, center, center);
         width: 100%;
     
         &__item{

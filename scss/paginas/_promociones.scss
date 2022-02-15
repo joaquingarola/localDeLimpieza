@@ -1,9 +1,6 @@
 .estructura__main__contenedorPromociones{
     width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-content: center;
+    @include flexbox(column, wrap, space-between, center);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;

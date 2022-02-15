@@ -1,7 +1,5 @@
 .estructura__main__contenedorIndex{
-    display: flex;
-    flex-flow: row wrap; 
-    justify-content: space-evenly;
+    @include flexbox(row, wrap, space-evenly, center);
     padding-top: 1%;
     padding-bottom: 1%;
 
@@ -13,10 +11,7 @@
 
     &__texto{
         width: 40%;
-        display: flex;
-        flex-flow: column wrap; 
-        justify-content: center;
-        align-content: center;
+        @include flexbox(column, wrap, center, center);
         text-align: center;
     }
 }
