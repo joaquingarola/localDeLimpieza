@@ -1,5 +1,6 @@
 .estructura__footer{ 
-    color: lightgray;
+    background-color: map-get($colores, principal);
+    color: map-get($colores, items);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -24,9 +25,9 @@
 }
 
 .linkFacebook:hover{
-    color: #3b5998 ;
+    color: map-get($colores, facebook);
 }
 
 .linkInstagram:hover{
-    color: blueviolet;
+    color: map-get($colores, instagram);
 }

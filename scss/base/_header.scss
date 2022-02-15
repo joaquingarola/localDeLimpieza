@@ -1,4 +1,6 @@
 .estructura__header{
+    background-color: map-get($colores, principal);
+
     &__contenedor{
         display: flex;
         flex-flow: row wrap;
@@ -14,13 +16,26 @@
     }
     
     &__titulo{
-        color: white;
+        color: map-get($colores, titulo);
     }
 }
 
 .navbar{
     padding-top: 0;
     padding-bottom: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: map-get($colores, items);
+
+    &.active{
+        color: map-get($colores, secundario);
+    }
+
+    &:hover{
+        color: lightgray;
+    }
 }
 
 

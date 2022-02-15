@@ -12,7 +12,7 @@
         width: 90%;
 
         &__th{
-            background-color: #AEFEFF;
+            background-color: map-get($colores, th);
             border-radius: 5px;
         }
 
@@ -22,12 +22,12 @@
             margin: auto;
 
             &__bna{
-                background-color: #007894;
+                background-color: map-get($colores, bna);
                 height: 40px;
             }
 
             &__bsf{
-                background-color: white;
+                background-color: map-get($colores, titulo);
                 height: 40px;
             }
 

@@ -10,19 +10,22 @@ h2{
 
 li a{
     text-decoration: none;
-    color: rgb(175, 175, 175);
+    color: map-get($colores, items);
     font-size: 20px;
 }
 
-.estructura__main__boton{
-    position: fixed;
-    right: 2%;
-    top: 45%;
-    z-index: 10;
-    filter: drop-shadow(10px 10px 4px grey);
+.estructura__main{
+    background-color: map-get($colores, secundario);
 
-    &:hover{
-        animation: mov 0.5s ease-in-out infinite both;
+    &__boton{
+        position: fixed;
+        right: 2%;
+        top: 45%;
+        z-index: 10;
+        filter: drop-shadow(10px 10px 4px map-get($colores, sombra-boton));
+
+        &:hover{
+            animation: mov 0.5s ease-in-out infinite both;
+        }
     }
 }
-
