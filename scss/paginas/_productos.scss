@@ -1,10 +1,31 @@
 .estructura__main__contenedorProductos{
-    @include flexbox(column, wrap, center, center);
     text-align: center;
     @extend %padding;
+    width: 90%;
+    margin: auto;
 
-    &__tabla{
-        width: 60%;
+    .card-producto{
+        max-width: 150px;
+        max-height: 200px;
+        margin: auto;
+    }
+
+    .precio{
+        font-weight: 900;
+        margin: 0;
+    }
+
+    .card-body{
+        height: 130px;
+    }
+
+    .card-description{
+        height: 75px;
+        @include flexbox(column, wrap, center, center);
+    }
+
+    .card-button{
+        padding-bottom: 10px;
     }
 }
 

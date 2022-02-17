@@ -120,13 +120,26 @@ li a {
     text-align: center; }
 
 .estructura__main__contenedorProductos {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
-  text-align: center; }
-  .estructura__main__contenedorProductos__tabla {
-    width: 60%; }
+  text-align: center;
+  width: 90%;
+  margin: auto; }
+  .estructura__main__contenedorProductos .card-producto {
+    max-width: 150px;
+    max-height: 200px;
+    margin: auto; }
+  .estructura__main__contenedorProductos .precio {
+    font-weight: 900;
+    margin: 0; }
+  .estructura__main__contenedorProductos .card-body {
+    height: 130px; }
+  .estructura__main__contenedorProductos .card-description {
+    height: 75px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center; }
+  .estructura__main__contenedorProductos .card-button {
+    padding-bottom: 10px; }
 
 .estructura__main__contenedorPromociones {
   width: 100%;

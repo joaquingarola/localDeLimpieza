@@ -56,78 +56,140 @@
             </div>
         </div>
     </header>
-    <!-- La forma en la que se muestran los productos la voy a cambiar, por ahora es una tabla -->
     <main class="estructura__main">
         <a href="./contacto.html"><img src="../imagenes/chat-bubble.png" alt="contacto" class="estructura__main__boton"></a>
         <section class="estructura__main__contenedorProductos">
             <h2>Nuestros productos</h2>
-            <table class="estructura__main__contenedorProductos__tabla">
-                <tr>
-                    <th>Categoría</th>
-                    <th>Descripcion</th>
-                    <th>Precio</th>
-                </tr>
-                <tr>
-                    <td>Limpieza Hogar</td>
-                    <td>Lavandina En Gel Libertador X 700 Ml.</td>
-                    <td>$125</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Hogar</td>
-                    <td>Lustramuebles Polycera Original X 300 Gr.</td>
-                    <td>$250</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Suavizante Suave Federal X 900 Ml. Aires De Bambu</td>
-                    <td>$255</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Barra Quitamanchas Vanish White X 75 Gr.</td>
-                    <td>$145</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Hogar</td>
-                    <td>Lavandina En Gel Libertador X 700 Ml.</td>
-                    <td>$125</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Hogar</td>
-                    <td>Lustramuebles Polycera Original X 300 Gr.</td>
-                    <td>$250</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Suavizante Suave Federal X 900 Ml. Aires De Bambu</td>
-                    <td>$255</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Barra Quitamanchas Vanish White X 75 Gr.</td>
-                    <td>$145</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Barra Quitamanchas Vanish White X 75 Gr.</td>
-                    <td>$145</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Barra Quitamanchas Vanish White X 75 Gr.</td>
-                    <td>$145</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Barra Quitamanchas Vanish White X 75 Gr.</td>
-                    <td>$145</td>
-                </tr>
-                <tr>
-                    <td>Limpieza Ropa</td>
-                    <td>Barra Quitamanchas Vanish White X 75 Gr.</td>
-                    <td>$145</td>
-                </tr>
-            </table>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/lavandina-ayudin.jpg" class="card-producto" alt="Lavandina Ayudin tradicional">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Lavandina Ayudin X 1 Litro</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$85,50</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/lavandina-ayudin-gel.jpg" class="card-producto" alt="Lavandina Ayudin en gel">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Lavandina en gel Ayudin X 700 Ml. Lavanda</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$105,00</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/detergente-magistral.jpg" class="card-producto" alt="Detergente Magistral">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Detergente Magistral X 215 Ml. Limon</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$125,50</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/lustramueble-ceramicol.jpg" class="card-producto" alt="Lustramueble Ceramicol aerosol">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Lustramuebles Ceramicol en aerosol X 360 Ml. Lavanda</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$212,50</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/perfumina-glade.jpg" class="card-producto" alt="Limpiador de pisos Glade">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Limpiador de pisos Glade X 900 Ml. Bosque de pinos</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$135,00</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                  </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/perfumina-poett.jpg" class="card-producto" alt="Limpiador de pisos Poett">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Limpiador de pisos Poett X 900 Ml. Flores de primavera</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$112,50</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/suavizante-suave.jpg" class="card-producto" alt="Suavizante Suave">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Suavizante Suave Federal X 900 Ml. Aires de bambu</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$185,25</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="../imagenes/suavizante-downy.jpg" class="card-producto" alt="Suavizante Downy">
+                        <div class="card-body">
+                            <div class="card-description">
+                                <p class="card-text">Suavizante concentrado Downy X 400 Ml. Brisa de verano</p>
+                            </div>
+                            <div class="card-precio">
+                                <p class="precio">$245,00</p>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="estructura__footer">
