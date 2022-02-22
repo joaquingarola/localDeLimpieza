@@ -1,5 +1,6 @@
 .estructura__main__contenedorNosotros{
     @include flexbox(column, wrap, center, center);
+    align-items: center;
     @extend %padding;
 
     &__texto{
@@ -8,13 +9,26 @@
     }
 
     &__cont{
-        width: 70%;
+        @include flexbox(row, wrap, space-evenly, center);
+        align-items: center;
+        width: 90%;
         height: 330px;
 
         &__mapa{
-            width: 100%;
+            width: 60%;
             height: 100%;
             object-fit: fill;
+        }
+
+        &__horarios{
+            @include flexbox(column, wrap, space-evenly, space-evenly);
+            width: 30%;
+            height: 40%;
+            text-align: center;
+
+            &__tabla{
+                width: 100%;
+            }
         }
     }
 }
